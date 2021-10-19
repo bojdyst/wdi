@@ -12,4 +12,11 @@ https://guides.github.com/features/mastering-markdown/
 
 **jeden dwa trzy**
 
+```
 print ("Hello world")
+```
+
+**First Header** | **Second Header**
+------------- | -------------
+Tabelka 1 | Tabelka 2
+Tabelka 3 | Tabelka 4 
