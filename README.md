@@ -36,4 +36,3 @@ Tabelka 3 | Tabelka 4
 >Be yourself; everyone else is already taken.
 
 ![Image of Doggy](laboratorium_2/Doggy.jpg)
-![Image of Papiez](laboratorium_2/cat.jpg)
