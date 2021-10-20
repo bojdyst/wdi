@@ -9,8 +9,8 @@ Tomasz Bojdys
 - motocykl
 
 *domy 
-  *mieszkania
-  *szalasy
+  * mieszkania
+  * szalasy
 
 https://guides.github.com/features/mastering-markdown/
 
@@ -27,8 +27,12 @@ print ("Hello world")
 Tabelka 1 | Tabelka 2
 Tabelka 3 | Tabelka 4 
 
-###TEST###
-######test######
-#TesT#
+###TEST
+
+######test
+
+#TesT
+
+>Be yourself; everyone else is already taken.
 
 ![Image of Doggy](/laboratorium_2/Doggy.jpg)
