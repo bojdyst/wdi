@@ -4,7 +4,13 @@ Tomasz Bojdys
 2. Hello World!
 - dom
 - samochod
+  - lamborghini
+  - ferrari
 - motocykl
+
+*domy 
+  *mieszkania
+  *szalasy
 
 https://guides.github.com/features/mastering-markdown/
 
@@ -20,3 +26,9 @@ print ("Hello world")
 ------------- | -------------
 Tabelka 1 | Tabelka 2
 Tabelka 3 | Tabelka 4 
+
+###TEST###
+######test######
+#TesT#
+
+![Image of Doggy](/laboratorium_2/Doggy.jpg)
