@@ -8,7 +8,7 @@ Tomasz Bojdys
   - ferrari
 - motocykl
 
-*domy 
+* domy 
   * mieszkania
   * szalasy
 
@@ -27,11 +27,11 @@ print ("Hello world")
 Tabelka 1 | Tabelka 2
 Tabelka 3 | Tabelka 4 
 
-###TEST
+### TEST
 
-######test
+###### test
 
-#TesT
+# TesT
 
 >Be yourself; everyone else is already taken.
 
