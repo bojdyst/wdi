@@ -60,6 +60,8 @@ while powtorka == "T":
         
         powtorka = input("Czy chcesz wprowadzić nowe dane? Wpisz T lub N ")
         
-else:
+while powtorka == "N":
         print("Dziękuję")
+        break 
+
     
