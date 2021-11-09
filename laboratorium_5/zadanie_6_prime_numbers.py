@@ -7,7 +7,7 @@ def czy_jest_pierwszą():
     elif liczba == 2:
         print("Liczba", liczba, "jest liczbą pierwszą!")
     elif liczba > 2:
-        for i in range(2, liczba):
+        for i in range(3, liczba, 2):
             if liczba % i == 0:
                 print("Liczba", liczba, "NIE jest liczbą pierwszą!")
                 return
