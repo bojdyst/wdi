@@ -1,6 +1,4 @@
 import cmath
-import math 
-math.floor 
 
 #Wykonaj działania na liczbach zespolonych już dziś!
 
