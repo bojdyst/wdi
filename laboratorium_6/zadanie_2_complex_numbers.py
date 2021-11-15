@@ -1,5 +1,3 @@
-import cmath
-
 #Wykonaj działania na liczbach zespolonych już dziś!
 
 z1 = complex(input("Wprowadź pierwszą liczbę zespoloną (w postaci a+bj): "))

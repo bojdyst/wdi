@@ -1,4 +1,4 @@
-import cmath
+#Kalkulator liczb zespolonych
 
 def kalkulator():
     z1 = complex(input("Wprowadź pierwszą liczbę zespoloną (w postaci a+bj): "))
