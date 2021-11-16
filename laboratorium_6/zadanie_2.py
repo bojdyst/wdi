@@ -19,7 +19,7 @@ def kalkulator():
         if z2.imag == 0:
             print("Wynik potęgowania =", z1 ** z2)
         else:
-            print("Wystąpił błąd podczas potęgowania - nieobsługiwana operacja!")
+            raise Exception("Wystąpił błąd podczas potęgowania - nieobsługiwana operacja!")
         
 while True:
     kalkulator()
