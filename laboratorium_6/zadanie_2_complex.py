@@ -1,5 +1,8 @@
 #Kalkulator liczb zespolonych
 
+#Przypadki testowe: (45-694j)/0, (45-9j)**(114+47j), 45**67, (458+854j)*(747-64j), (444-874569j)+(11111254+9854j)
+#Potęgowanie jest obsługiwane dla liczb do 10^5**10^3, reszta dla liczb bardzo dużego rzędu
+
 def kalkulator():
     try:
         a1 = int(input("Wprowadź część rzeczywistą pierwszej liczby zespolonej: "))
