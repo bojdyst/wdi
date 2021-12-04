@@ -43,20 +43,20 @@ for i in range(rows):
         print(format(sum[i][p], "<5"), end = " ")
     print()
 
-sum = [] #macierz z samymi zerami o takich samych wymiarach
+subt = [] #macierz z samymi zerami o takich samych wymiarach
 for i in range(rows):
     temp = []
     for p in range(columns):
         p = 0
         temp.append(p)
-    sum.append(temp)
+    subt.append(temp)
  
 for i in range(rows):
     for p in range(columns):
-        sum[i][p] = first_matrix[i][p] - second_matrix[i][p]
+        subt[i][p] = first_matrix[i][p] - second_matrix[i][p]
 
 print("Wynik odejmowania to:")
 for i in range(rows):
     for p in range(columns):
-        print(format(sum[i][p], "<5"), end = " ")
+        print(format(subt[i][p], "<5"), end = " ")
     print()
