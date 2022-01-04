@@ -1,15 +1,12 @@
 class Ground:
     def __init__(self, points):
-        self.points = points  # self.zmienna daje dostęp całej klasie do tej zmiennej
-
-    def print(self):
-        print(self.points)
+        self.points = points                                                            # self.zmienna daje dostęp całej klasie do tej zmiennej i dla każdego obiektu przyjmuje inną wartość
 
     def get_candidates(self, main_point):
         x = []
         y = []
-        z = []  # potencjalny czwarty punkt
-        for point in self.points:  # przechodzi przez punkty z tablicy punktów
+        z = []                                                                          # potencjalny czwarty punkt
+        for point in self.points:                                                       # przechodzi przez punkty z tablicy punktów
             if point[0] == main_point[0] and point[1] != main_point[1]:
                 y.append(point)
             elif point[1] == main_point[1]:
@@ -25,9 +22,6 @@ class Ground:
                 candidates.append((hx[0], vy[1]))
         return candidates
 
-    def sorted_by_y(self, e):
-        return e[1]
-
     def can_exist_rectangle(self, main_point, symetric_point):
         a = abs(main_point[0] - symetric_point[0])
         b = abs(main_point[1] - symetric_point[1])
@@ -41,7 +35,7 @@ class Ground:
         return True
 
     def is_rectangle_from_point(self, point):
-        horizontalX, verticalY, others = self.get_candidates(point)  # horizontalX = x, verticalY = y, others = z
+        horizontalX, verticalY, others = self.get_candidates(point)                     # horizontalX = x, verticalY = y, others = z
         potential_point = self.combination_of_arrays(horizontalX, verticalY)
         for potential in potential_point:
             if others.__contains__(potential) and self.can_exist_rectangle(point, potential):
