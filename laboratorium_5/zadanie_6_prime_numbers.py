@@ -1,23 +1,23 @@
 #Sprawdź, czy zadana liczba jest liczbą pierwszą
 
-def czy_jest_pierwszą():
-    liczba = int(input("Wprowadź liczbę i sprawdź, czy jest liczbą pierwszą!: "))
-    if liczba < 2:
-        print("Liczba", liczba, "NIE jest liczbą pierwszą!")
-    elif liczba == 2:
-        print("Liczba", liczba, "jest liczbą pierwszą!")
-    elif liczba > 2:
-        for i in range(3, liczba, 2):
-            if liczba % i == 0:
-                print("Liczba", liczba, "NIE jest liczbą pierwszą!")
-                return
-        print("Liczba", liczba, "jest liczbą pierwszą!")
+def czy_jest_pierwszą(n):
+    if type(n) not in [int, float]:
+        raise TypeError("Podaj liczbę, nie słowo!")
+    if n == 2:
+        return True
+    if n % 2 == 0 or n <= 1:
+        return False
+    for dzielnik in range(3, n, 2):
+        if n % dzielnik == 0:
+            return False
+    return True
 
-while True: 
-    czy_jest_pierwszą()
-    loop = input("Czy chesz wprowadzić kolejną liczbę? Wpisz T/N: ")
-    if loop == "N":
-        print("Dziękuję za skorzystanie z programu! Miłego dnia ;)")
-        break  
+
+# while True: 
+#     czy_jest_pierwszą()
+#     loop = input("Czy chesz wprowadzić kolejną liczbę? Wpisz T/N: ")
+#     if loop == "N":
+#         print("Dziękuję za skorzystanie z programu! Miłego dnia ;)")
+#         break  
 
 

@@ -1,7 +1,7 @@
 import time
 
-M = int(input("Wprowadź liczbę: "))
-N = int(input("Wprowadź potęgę: "))
+# M = int(input("Wprowadź liczbę: "))
+# N = int(input("Wprowadź potęgę: "))
 
 def potegowanie(m,n):
     if n == 0:
@@ -16,8 +16,8 @@ def is_prime_rec(a, b = 2):
         return 0
     return is_prime_rec(a, b + 1)
 
-if is_prime_rec(N) == 1:
-    time.sleep(M)
+# if is_prime_rec(N) == 1:
+#     time.sleep(M)
 
-print(potegowanie(M,N))
-print(is_prime_rec(N))
+# print(potegowanie(M,N))
+# print(is_prime_rec(N))

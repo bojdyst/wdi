@@ -15,4 +15,3 @@ n = input("Wprowadź znaki, a otrzymasz kody Ascii: ")
 
 for i in range(len(n)):
     print(n[i], "=", dictonary.get(n[i]))
-     
